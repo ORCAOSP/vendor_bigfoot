@@ -1,0 +1,17 @@
+add_lunch_combo bigfoot_crespo-userdebug
+add_lunch_combo bigfoot_d2att-userdebug
+add_lunch_combo bigfoot_d2spr-userdebug
+add_lunch_combo bigfoot_d2vzw-userdebug
+add_lunch_combo bigfoot_grouper-userdebug
+add_lunch_combo bigfoot_maguro-userdebug
+add_lunch_combo bigfoot_mako-userdebug
+add_lunch_combo bigfoot_tilapia-userdebug
+add_lunch_combo bigfoot_toro-userdebug
+add_lunch_combo bigfoot_toroplus-userdebug
+add_lunch_combo bigfoot_i9100g-userdebug
+add_lunch_combo bigfoot_i9100-userdebug
+add_lunch_combo bigfoot_i9300-userdebug
+add_lunch_combo bigfoot_p3100-userdebug
+add_lunch_combo bigfoot_leo-userdebug
+add_lunch_combo bigfoot_tf101-userdebug
+add_lunch_combo bigfoot_p4wifi-userdebug
