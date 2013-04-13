@@ -22,4 +22,4 @@ PRODUCT_PACKAGES += \
     Thinkfree
 
 PRODUCT_COPY_FILES += \
-   vendor/aosp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+   vendor/bigfoot/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip

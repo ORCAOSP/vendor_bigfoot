@@ -30,7 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy maguro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/aosp/prebuilt/bootanimation/bootanimation_1280_728.zip:system/media/bootanimation.zip \
-    vendor/aosp/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/aosp/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+    vendor/bigfoot/prebuilt/bootanimation/bootanimation_1280_728.zip:system/media/bootanimation.zip \
+    vendor/bigfoot/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/bigfoot/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 

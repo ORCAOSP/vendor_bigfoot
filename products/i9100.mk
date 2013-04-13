@@ -22,4 +22,4 @@ PRODUCT_PACKAGES += \
     Thinkfree
 
 PRODUCT_COPY_FILES += \
-   vendor/aosp/prebuilt/hybrid_hdpi.conf:system/etc/beerbong/properties.conf 
+   vendor/bigfoot/prebuilt/hybrid_hdpi.conf:system/etc/beerbong/properties.conf 
