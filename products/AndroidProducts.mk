@@ -12,7 +12,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/i9100g.mk \
     $(LOCAL_DIR)/i9100.mk \
     $(LOCAL_DIR)/i9300.mk \
+    $(LOCAL_DIR)/i9305.mk \
     $(LOCAL_DIR)/p3100.mk \
     $(LOCAL_DIR)/leo.mk \
     $(LOCAL_DIR)/tf101.mk \
+    $(LOCAL_DIR)/t0lte.mk \
     $(LOCAL_DIR)/p4wifi.mk
