@@ -168,7 +168,7 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Ultra_Explorer_v1c
+LOCAL_MODULE := Ultra_Explorer_v1.1
 LOCAL_MODULE_OWNER := bigfoot
 LOCAL_SRC_FILES := common/app/$(LOCAL_MODULE).apk
 LOCAL_MODULE_TAGS := optional

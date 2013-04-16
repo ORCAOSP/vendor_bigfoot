@@ -71,7 +71,7 @@ PRODUCT_PACKAGES += \
     LunarUI \
     GoogleKeep \
     JRThemes \
-    Ultra_Explorer_v1c \
+    Ultra_Explorer_v1.1 \
     ORCAWallpapers \
     SoundShort \
     Overlays \
