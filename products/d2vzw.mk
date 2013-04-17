@@ -1,25 +1,34 @@
-# Inherit AOSP device configuration for d2spr
+# Inherit AOSP device configuration for d2vzw.
 $(call inherit-product, device/samsung/d2vzw/full_d2vzw.mk)
 
-# Inherit common product files.
-$(call inherit-product, vendor/bigfoot/config/common.mk)
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/bigfoot/configs/cdma.mk)
 
-# Inherit CDMA common stuff
-$(call inherit-product, vendor/bigfoot/config/cdma.mk)
+# Inherit common Verizon Wireless Perms and Lib
+$(call inherit-product, vendor/bigfoot/configs/vzw.mk)
 
-# d2spr Overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/bigfoot/overlay/toro
+# Inherit RootBox common bits
+$(call inherit-product, vendor/bigfoot/configs/common.mk)
+
+# S3 Overlays
+PRODUCT_PACKAGE_OVERLAYS += vendor/bigfoot/overlay/s3-common
+
+# PA OVERLAY_TARGET
+OVERLAY_TARGET := pa_i9300
 
 # Setup device specific product configuration.
 PRODUCT_NAME := bigfoot_d2vzw
 PRODUCT_BRAND := Samsung
 PRODUCT_DEVICE := d2vzw
+PRODUCT_MODEL := SCH-I535
 PRODUCT_MANUFACTURER := Samsung
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=d2vzw TARGET_DEVICE=d2vzw BUILD_FINGERPRINT="d2vzw-user 4.1.2 JZO54K  release-keys" PRIVATE_BUILD_DESC="samsung/d2vzw/d2vzw:4.1.2/JZO54K/:user/release-keys"
+# Set build fingerprint / ID / Product Name ect.
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=d2vzw TARGET_DEVICE=d2vzw BUILD_FINGERPRINT="d2vzw-user 4.1.2 JZO54K I535VRBMB1 release-keys" PRIVATE_BUILD_DESC="Verizon/d2vzw/d2vzw:4.1.2/JZO54K/I535VRBMB1:user/release-keys"
 
-# Copy mako specific prebuilt files
-PRODUCT_COPY_FILES +=  \
-    vendor/bigfoot/prebuilt/hybrid_i9300.conf:system/etc/beerbong/properties.conf \
+# Copy mako specific prebuilts
+PRODUCT_COPY_FILES += \
+    vendor/bigfoot/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip \
     vendor/bigfoot/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/bigfoot/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd 
+

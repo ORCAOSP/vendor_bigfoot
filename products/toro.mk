@@ -1,17 +1,17 @@
 # Inherit AOSP device configuration for toro.
 $(call inherit-product, device/samsung/toro/full_toro.mk)
 
-# Inherit common product files.
-$(call inherit-product, vendor/bigfoot/config/common.mk)
+# Inherit common Verizon Wireless Files
+$(call inherit-product, vendor/bigfoot/configs/vzw.mk)
 
-# Inherit CDMA common stuff
-$(call inherit-product, vendor/bigfoot/config/cdma.mk)
+# Inherit bigfoot common bits
+$(call inherit-product, vendor/bigfoot/configs/common.mk)
 
-# Inherit Tuna common stuff
-$(call inherit-product, vendor/bigfoot/config/tuna.mk)
-
-# Toro Overlay
+# Tuna Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/bigfoot/overlay/tuna
+
+# PA OVERLAY_TARGET
+OVERLAY_TARGET := pa_xhdpi
 
 # Setup device specific product configuration.
 PRODUCT_NAME := bigfoot_toro
@@ -20,10 +20,15 @@ PRODUCT_DEVICE := toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=JDQ39 BUILD_FINGERPRINT="google/mysid/toro:4.2.2/JDQ39/573038:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.2.2 JDQ39 573038 release-keys" BUILD_NUMBER=573038
+# Set build fingerprint / ID / Product Name ect.
+PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=JDQ39 BUILD_FINGERPRINT=google/mysid/toro:4.2.2/JDQ39/125147:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.2.2 JDQ39 125147 release-keys" BUILD_NUMBER=125147
 
-# Copy toro specific prebuilt files
-PRODUCT_COPY_FILES +=  \
-    vendor/bigfoot/prebuilt/bootanimation/bootanimation_1280_728.zip:system/media/bootanimation.zip \
+# Toro specific packages
+PRODUCT_PACKAGES += \
+    Thinkfree
+
+# Copy toro specific prebuilts
+PRODUCT_COPY_FILES += \
+    vendor/bigfoot/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
     vendor/bigfoot/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/bigfoot/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
