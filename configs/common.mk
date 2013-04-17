@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
     Carbon \
     LunarUI \
     GoogleKeep \
+    RoundR \
     JRThemes \
     Ultra_Explorer_v1.1 \
     ORCAWallpapers \
