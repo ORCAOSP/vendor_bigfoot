@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
 
 # Bigfoot Packages
 PRODUCT_PACKAGES += \
-	ORCASettings \
+    ORCASettings \
     DashClock \
     Carbon \
     LunarUI \
@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
 
 # CM Packages
 PRODUCT_PACKAGES += \
+    Apollo \
     audio_effects.conf \
     DSPManager \
     libcyanogen-dsp \
