@@ -38,7 +38,6 @@ PRODUCT_PACKAGES += \
     Ultra_Explorer_v1.1 \
     ORCAWallpapers \
     SoundShort \
-    Overlays \
     OrcaTools
 
 # CM Packages
