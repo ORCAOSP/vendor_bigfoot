@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
     Ultra_Explorer_v1.1 \
     ORCAWallpapers \
     SoundShort \
-    Overlays \
     WebView \
     Superuser \
     su \
