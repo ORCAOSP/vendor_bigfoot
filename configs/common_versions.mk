@@ -9,14 +9,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=drewgaren \
     ro.goo.rom=Bigfoot \
     ro.goo.version=$(DATE) \
-    ro.bigfoot.version=BIGFOOT-1.1.3-$(TARGET_PRODUCT)-$(DATE)
+    ro.bigfoot.version=BIGFOOT-1.1.4-$(TARGET_PRODUCT)-$(DATE)
 else
 # Bigfoot Nightlies properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=drewgaren \
     ro.goo.rom=Bigfoot_Nightlies \
     ro.goo.version=$(DATE) \
-    ro.bigfoot.version=BIGFOOT-1.1.3-$(TARGET_PRODUCT)-Nightly-$(DATE)
+    ro.bigfoot.version=BIGFOOT-1.1.4-$(TARGET_PRODUCT)-Nightly-$(DATE)
 endif
 
 
