@@ -13,4 +13,6 @@ $(LOCAL_DIR)/n7000.mk \
 $(LOCAL_DIR)/n7100.mk \
 $(LOCAL_DIR)/quincyatt.mk \
 $(LOCAL_DIR)/toro.mk \
+$(LOCAL_DIR)/toroplus.mk \
+$(LOCAL_DIR)/d2usc.mk \
 $(LOCAL_DIR)/t0lte.mk

@@ -1,6 +1,7 @@
 add_lunch_combo bigfoot_d2att-userdebug
 add_lunch_combo bigfoot_d2tmo-userdebug
 add_lunch_combo bigfoot_d2vzw-userdebug
+add_lunch_combo bigfoot_d2usc-userdebug
 add_lunch_combo bigfoot_grouper-userdebug
 add_lunch_combo bigfoot_i605-userdebug
 add_lunch_combo bigfoot_i9100-userdebug
@@ -13,4 +14,8 @@ add_lunch_combo bigfoot_n7000-userdebug
 add_lunch_combo bigfoot_n7100-userdebug
 add_lunch_combo bigfoot_quincyatt-userdebug
 add_lunch_combo bigfoot_toro-userdebug
+add_lunch_combo bigfoot_toroplus-userdebug
 add_lunch_combo bigfoot_t0lte-userdebug
+add_lunch_combo bigfoot_t0lteatt-userdebug
+add_lunch_combo bigfoot_t0ltetmo-userdebug
+
