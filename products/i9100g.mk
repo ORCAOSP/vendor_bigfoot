@@ -24,3 +24,8 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I9100G TARGET_DEVICE=GT-I9100G BUILD_FINGERPRINT=samsung/GT-I9100G/GT-I9100G:4.1.2/JZO54K/XXLPQ:user/release-keys PRIVATE_BUILD_DESC="GT-I9100G-user 4.1.2 JZO54K XXLPQ release-keys"
 PRODUCT_RELEASE_NAME := GT-I9100G
 
+# Copy hdpi specific prebuilts
+PRODUCT_COPY_FILES += \
+    vendor/rootbox/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/bigfoot/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/bigfoot/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
