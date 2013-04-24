@@ -2,6 +2,7 @@ add_lunch_combo bigfoot_d2att-userdebug
 add_lunch_combo bigfoot_d2tmo-userdebug
 add_lunch_combo bigfoot_d2vzw-userdebug
 add_lunch_combo bigfoot_d2usc-userdebug
+add_lunch_combo bigfoot_d2mtr-userdebug
 add_lunch_combo bigfoot_grouper-userdebug
 add_lunch_combo bigfoot_i605-userdebug
 add_lunch_combo bigfoot_i9100-userdebug
