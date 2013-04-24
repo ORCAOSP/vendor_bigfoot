@@ -7,7 +7,7 @@ $(call inherit-product, vendor/bigfoot/configs/cdma.mk)
 # Inherit common Verizon Wireless Perms and Lib
 $(call inherit-product, vendor/bigfoot/configs/vzw.mk)
 
-# Inherit RootBox common bits
+# Inherit Bigfoot common bits
 $(call inherit-product, vendor/bigfoot/configs/common.mk)
 
 # S3 Overlays
