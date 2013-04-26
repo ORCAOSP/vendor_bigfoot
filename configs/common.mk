@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     Microbes \
     PerformanceControl \
+    PermissionsManager \
     Superuser \
     su \
     Torch
