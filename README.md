@@ -1,5 +1,5 @@
-The Orca Project 4.2+ Presents - Orca Bigfoot 2
-================================================
+[The Orca Project 4.2+ Presents - Orca Bigfoot 2]
+=================================================
 
 WIP WILL KILL ORCAS AND SASQUATCHS
 
@@ -9,7 +9,7 @@ Download the source
 
 Initiliaze
 
-    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b Bigfoot
+    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b bigfoot
 
 Lets Sync It!
 
