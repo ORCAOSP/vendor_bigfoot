@@ -56,7 +56,8 @@ PRODUCT_PACKAGES += \
 # Bigfoot build.prop tweaks
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
-    ro.pa.family=$(OVERLAY_TARGET)
+    ro.pa.family=$(OVERLAY_TARGET) \
+    ro.pa=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -75,7 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/bigfoot/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
 # ParanoidAndroid Overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/rootbox/prebuilt/preferences/$(TARGET_PRODUCT)
+PRODUCT_PACKAGE_OVERLAYS += vendor/bigfoot/prebuilt/preferences/$(TARGET_PRODUCT)
 
 # Allow device family to add overlays and use a same prop.conf
 ifneq ($(OVERLAY_TARGET),)
