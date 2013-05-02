@@ -1,5 +1,5 @@
-[The Orca Project 4.2+ Presents - Orca Bigfoot 2]
-=================================================
+The Orca Project 4.2+ Presents - Orca Bigfoot 2
+===============================================
 
 WIP WILL KILL ORCAS AND SASQUATCHS
 
