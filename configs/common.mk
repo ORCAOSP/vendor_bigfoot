@@ -6,9 +6,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/bigfoot/overlay/dictionaries
 
 # Backup Tool
 #PRODUCT_COPY_FILES += \
-#    vendor/bigfoot/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-#    vendor/bigfoot/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-#    vendor/bigfoot/prebuilt/common/bin/50-bf.sh:system/addon.d/50-bf.sh \
 #    vendor/bigfoot/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
 # SuperUser
@@ -20,6 +17,7 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     GooManager \
     LatinImeDictionaryPack \
+    mGerrit \
     Microbes \
     PerformanceControl \
     PermissionsManager \
@@ -31,7 +29,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ORCASettings \
     DashClock \
-    Carbon \
+    Helium \
     LunarUI \
     GoogleKeep \
     RoundR \
@@ -74,8 +72,19 @@ PRODUCT_COPY_FILES += \
     vendor/bigfoot/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/bigfoot/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/bigfoot/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/bigfoot/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/bigfoot/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
+
+# Camera effects
+PRODUCT_COPY_FILES +=  \
+    vendor/bigfoot/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/bigfoot/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+
 # ParanoidAndroid Overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/rootbox/prebuilt/preferences/$(TARGET_PRODUCT)
+PRODUCT_PACKAGE_OVERLAYS += vendor/bigfoot/prebuilt/preferences/$(TARGET_PRODUCT)
 
 # Allow device family to add overlays and use a same prop.conf
 ifneq ($(OVERLAY_TARGET),)

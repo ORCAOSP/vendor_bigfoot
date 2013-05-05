@@ -3,20 +3,20 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_VERSION_TAGS=release-keys USER=android-bui
 
 DATE = $(shell date +%Y%m%d)
 
-ifneq ($(bigfoot_BUILD),)
+ifneq ($(BF_BUILD),)
 # Bigfoot Official properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=drewgaren \
     ro.goo.rom=Bigfoot \
     ro.goo.version=$(DATE) \
-    ro.bigfoot.version=BIGFOOT-1.1.8-$(TARGET_PRODUCT)-$(DATE)
+    ro.bigfoot.version=BIGFOOT-2.0.1-$(TARGET_PRODUCT)-$(DATE)
 else
 # Bigfoot Nightlies properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=drewgaren \
     ro.goo.rom=Bigfoot_Nightlies \
     ro.goo.version=$(DATE) \
-    ro.bigfoot.version=BIGFOOT-1.1.8-$(TARGET_PRODUCT)-Nightly-$(DATE)
+    ro.bigfoot.version=BIGFOOT-2.0.1-$(TARGET_PRODUCT)-Nightly-$(DATE)
 endif
 
 
