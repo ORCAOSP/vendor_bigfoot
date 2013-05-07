@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
     RoundR \
     JRThemes \
     Ultra_Explorer_v1.1 \
-    OrcaWallpapers \
+    ORCAWallpapers \
     SoundShort \
     OrcaTools
 
