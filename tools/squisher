@@ -170,7 +170,7 @@ OUTFILE=$OUT/$MODVERSION.zip
 OVERLAYTARGET=`grep 'ro.pa.family=' $REPACK/ota/system/build.prop | sed -e 's/ro.pa.family=//g'`
 
 # Copy PA overlays
-printf "Copying overlay preferences for $OVERLAYTARGET..."
+echo -e $CL_CYN"Copying overlay preferences for $OVERLAYTARGET..."$CL_RST
 echo
 mkdir $REPACK/ota/system/etc/paranoid/preferences
 mkdir $REPACK/ota/system/etc/paranoid/preferences/images
