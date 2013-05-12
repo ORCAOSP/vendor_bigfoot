@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     mGerrit \
     Microbes \
+    Launcher2 \
     PerformanceControl \
     PermissionsManager \
     Superuser \
