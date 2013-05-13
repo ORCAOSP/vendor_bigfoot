@@ -16,7 +16,6 @@ add_lunch_combo bigfoot_n7100-userdebug
 add_lunch_combo bigfoot_quincyatt-userdebug
 add_lunch_combo bigfoot_toro-userdebug
 add_lunch_combo bigfoot_toroplus-userdebug
-add_lunch_combo bigfoot_passion-userdebug
 add_lunch_combo bigfoot_t0lte-userdebug
 add_lunch_combo bigfoot_t0lteatt-userdebug
 add_lunch_combo bigfoot_t0ltetmo-userdebug

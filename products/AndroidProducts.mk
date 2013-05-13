@@ -16,7 +16,6 @@ $(LOCAL_DIR)/quincyatt.mk \
 $(LOCAL_DIR)/toro.mk \
 $(LOCAL_DIR)/toroplus.mk \
 $(LOCAL_DIR)/d2usc.mk \
-$(LOCAL_DIR)/passion.mk \
 $(LOCAL_DIR)/t0lteatt.mk \
 $(LOCAL_DIR)/t0ltetmo.mk \
 $(LOCAL_DIR)/t0lte.mk
