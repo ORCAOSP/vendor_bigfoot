@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     LunarUI \
     GoogleKeep \
     RoundR \
-    Halo \
     Ultra_Explorer_v1.1 \
     ORCAWallpapers \
     SoundShort \
