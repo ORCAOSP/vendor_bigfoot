@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     GoogleKeep \
     RoundR \
     Ultra_Explorer_v1.1 \
+    LatinImeGoogle \
     ORCAWallpapers \
     SoundShort \
     OrcaTools
@@ -69,6 +70,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_COPY_FILES += \
     vendor/bigfoot/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
+    vendor/bigfoot/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+    vendor/bigfoot/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
     vendor/bigfoot/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
 # Backup Tool
