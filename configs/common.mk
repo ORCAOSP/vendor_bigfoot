@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
     RoundR \
     Ultra_Explorer_v1.1 \
     ORCAWallpapers \
+    ORCABackup \
     SoundShort \
     OrcaTools
 
