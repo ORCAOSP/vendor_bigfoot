@@ -76,14 +76,11 @@ PRODUCT_COPY_FILES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
+	vendor/bigfoot/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
+    vendor/bigfoot/prebuilt/common/etc/persist.conf:system/etc/persist.conf \
     vendor/bigfoot/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/bigfoot/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/bigfoot/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
-    
-# Installer 
-PRODUCT_COPY_FILES += \	
-	vendor/bigfoot/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
-    vendor/bigfoot/prebuilt/common/etc/persist.conf:system/etc/persist.conf
 
 # Camera effects
 PRODUCT_COPY_FILES +=  \
