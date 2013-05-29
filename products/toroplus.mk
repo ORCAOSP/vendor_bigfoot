@@ -14,7 +14,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/orca/overlay/CDMATools
 OVERLAY_TARGET := pa_xhdpi
 
 # Setup device specific product configuration.
-PRODUCT_NAME := aokp_toroplus
+PRODUCT_NAME := bigfoot_toroplus
 PRODUCT_BRAND := Google
 PRODUCT_DEVICE := toroplus
 PRODUCT_MODEL := Galaxy Nexus
