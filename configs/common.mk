@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ORCASettings \
     Trebuchet \
+    LatinImeGoogle \
     DashClock \
     Helium \
     LunarUI \
@@ -74,6 +75,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=3
 
 PRODUCT_COPY_FILES += \
+    vendor/bigfoot/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
+    vendor/bigfoot/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
     vendor/bigfoot/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/bigfoot/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
