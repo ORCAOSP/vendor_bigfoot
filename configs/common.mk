@@ -49,13 +49,8 @@ PRODUCT_PACKAGES += \
     LockClock
 
 # PA Packages
-ifdef PA_PREF_FIX
-PRODUCT_PACKAGES += \
-    PaPrefs
-else 
 PRODUCT_PACKAGES += \
     ParanoidPreferences
-endif
 
 # Bigfoot build.prop tweaks
 PRODUCT_PROPERTY_OVERRIDES += \

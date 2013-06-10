@@ -11,7 +11,7 @@ $(call inherit-product, vendor/bigfoot/configs/common.mk)
 PRODUCT_PACKAGE_OVERLAYS += vendor/bigfoot/overlay/note-common
 
 # PA OVERLAY_TARGET
-OVERLAY_TARGET := pa_xhdpi
+OVERLAY_TARGET := pa_hdpi
 
 # Setup device specific product configuration.
 PRODUCT_NAME := bigfoot_l900
