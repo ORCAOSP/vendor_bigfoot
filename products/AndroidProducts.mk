@@ -16,6 +16,10 @@ $(LOCAL_DIR)/quincyatt.mk \
 $(LOCAL_DIR)/toro.mk \
 $(LOCAL_DIR)/toroplus.mk \
 $(LOCAL_DIR)/d2usc.mk \
+$(LOCAL_DIR)/find5.mk \
+$(LOCAL_DIR)/manta.mk \
+$(LOCAL_DIR)/jfltecan.mk \
+$(LOCAL_DIR)/tilapia.mk \
 $(LOCAL_DIR)/t0lteatt.mk \
 $(LOCAL_DIR)/t0ltetmo.mk \
 $(LOCAL_DIR)/t0lte.mk

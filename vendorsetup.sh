@@ -19,4 +19,7 @@ add_lunch_combo bigfoot_toroplus-userdebug
 add_lunch_combo bigfoot_t0lte-userdebug
 add_lunch_combo bigfoot_t0lteatt-userdebug
 add_lunch_combo bigfoot_t0ltetmo-userdebug
-
+add_lunch_combo bigfoot_find5-userdebug
+add_lunch_combo bigfoot_jfltecan-userdebug
+add_lunch_combo bigfoot_manta-userdebug
+add_lunch_combo bigfoot_tilapia-userdebug
