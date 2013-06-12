@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
     GoogleKeep \
     RoundR \
     Ultra_Explorer_v1.1 \
-    ORCAWallpapers \
+    OrcaWallpapers \
     SoundShort \
     OrcaTools
 
