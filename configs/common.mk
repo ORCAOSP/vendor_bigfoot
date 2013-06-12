@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
 # Bigfoot Packages
 PRODUCT_PACKAGES += \
     ORCASettings \
-    Trebuchet \
     LatinImeGoogle \
     DashClock \
     Helium \
