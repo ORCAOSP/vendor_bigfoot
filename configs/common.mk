@@ -32,9 +32,7 @@ PRODUCT_PACKAGES += \
     LatinImeGoogle \
     DashClock \
     Helium \
-    LunarUI \
     GoogleKeep \
-    RoundR \
     Ultra_Explorer_v1.1 \
     OrcaWallpapers \
     SoundShort \
