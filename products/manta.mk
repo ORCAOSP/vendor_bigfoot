@@ -21,7 +21,7 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mantaray BUILD_FINGERPRINT=google/m
 
 # Copy bootanimation.zip
 PRODUCT_COPY_FILES += \
-    vendor/bigfoot/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation.zip
+    vendor/bigfoot/prebuilt/nexus/bootanimation.zip:system/media/bootanimation.zip
 vendor/bigfoot/prebuilt/preferences/images/phablet.png:system/etc/paranoid/preferences/images/phablet.png \
     vendor/bigfoot/prebuilt/preferences/images/phone.png:system/etc/paranoid/preferences/images/phone.png \
     vendor/bigfoot/prebuilt/preferences/images/tablet.png:system/etc/paranoid/preferences/images/tablet.png \
