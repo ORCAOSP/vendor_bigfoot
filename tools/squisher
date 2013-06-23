@@ -174,8 +174,8 @@ echo -e $CL_CYN"Copying overlay preferences for $OVERLAYTARGET..."$CL_RST
 echo
 mkdir $REPACK/ota/system/etc/paranoid/preferences
 mkdir $REPACK/ota/system/etc/paranoid/preferences/images
-cp -r $ANDROID_BUILD_TOP/vendor/rootbox/prebuilt/preferences/images/* $REPACK/ota/system/etc/paranoid/preferences/images/
-cp -r $ANDROID_BUILD_TOP/vendor/rootbox/prebuilt/preferences/$OVERLAYTARGET/* $REPACK/ota/system/etc/paranoid/preferences/
+cp -r $ANDROID_BUILD_TOP/vendor/bigfoot/prebuilt/preferences/images/* $REPACK/ota/system/etc/paranoid/preferences/images/
+cp -r $ANDROID_BUILD_TOP/vendor/bigfoot/prebuilt/preferences/$OVERLAYTARGET/* $REPACK/ota/system/etc/paranoid/preferences/
 
 # Pack it up and sign
 echo -e $CL_CYN"Zipping package..."$CL_RST
